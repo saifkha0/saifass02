@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sign up
+</title>
+<style>
+	body{	background-image: url("formbg.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+	h2  {	font-faimly: verdana;
+			font-size: 40px;
+			text-align: center;
+			color: rgba(2,2,2,1);
+			text-decoration: underline;
+			
+			
+		}
+	div form {	text-align: center;	
+				border-radius: 5px;
+				background-color: rgba(0,0,0,0.3);
+				width: 100%;
+			}
+	     
+		input[type=text]    {	border-radius: 5px;
+								border: 1px solid black;
+							
+							}
+		input[type=date]    {	border-radius: 5px;
+								border: 1px solid black;
+							}
+		input[type=mail]    {	border-radius: 5px;
+								border: 1px solid black;
+							}
+		input[type=password]    {	border-radius: 5px;
+								border: 1px solid black;
+							}
+	input[type=submit] { cursor: pointer;
+						 
+						 margin-top: 20px;
+						 padding: 2px 15px 2px 15px;
+						 border-radius: 10px;
+						}
+	input[type=submit]:hover { color: white;
+								background-color: black;
+	}
+
+	
+	#legend {		border-left: 2px solid black;
+				border-right: 2px solid black;
+		}
+	div form fieldset 	{	border: 1px solid black;
+							
+						}
+		
+	div{
+		position: fixed;
+		top: 180px;
+		left: 350px;
+	
+	}
+
+</style>
+
+</head>
+<body>
+	
+	
+<div>
+	<form>
+		<fieldset>
+			<legend id="legend"><em>Sign up</em></legend>
+			<legend><em><u>Information</u></em></legend><br><br>
+			<label>1. First Name:</label> 
+			<input type="text" name="first name">
+			Last Name:
+			<input type="text" name="last name"><br><b>
+			<br>
+			2. Gender: <br>
+			<input type="radio" name="gender" value="male" checked>Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="others">Other <br>
+			<br>
+			3. Date of Birth: <br>
+			<input type="date" name="dob"><br>
+			<br>
+			4. E-mail: <br>
+			<input type="mail" name="email"> <br>
+			<br>
+			5. Create Password: 
+			<input type="password" name="password">
+			   Retype Password: 
+			 <input type="password" name="password"><br>
+			<input type="submit" >
+
+		</fieldset>
+	</form>
+</div>
+
+
+
+
+</body>
+</html>
